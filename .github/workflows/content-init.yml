@@ -20,8 +20,8 @@ on:
 env:
   imageRepository: 'content-init'
   resourceGroupName: 'fabmedical-225026'
-  containerRegistryName: 'acr225026'
-  containerRegistry: 'acr225026.azurecr.io'
+  containerRegistryName: 'acr226955'
+  containerRegistry: 'acr226955.azurecr.io'
   dockerfilePath: './content-init'
   tag: '${{ github.run_id  }}'
 
