@@ -8,11 +8,8 @@ spec:
   rules:
   - http:
       paths:
-        - path: /api
+        - path: /speakers
           backend:
             serviceName: api
             servicePort: 3001
-        - path: /web
-          backend:
-            serviceName: web
-            servicePort: 80
+ 
